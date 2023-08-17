@@ -3,7 +3,7 @@
 We ask participants for our challenge to prepare as a docker submission. This docker can be submitted to Grand Challenge for automatic evaluation.
 
 ## Preparing the code
-The Python script process.py will handle in- and output of your docker. The specific segmentation method can be changed in the predict function. Please note that the images need to match the size of the T1 image, even though all four images are imported. Also note that the resulting output segmentation needs to be binary.
+The Python script process.py will handle in- and output of your docker. Your specific segmentation method should be changed in the predict function. Please note that the images need to match the size of the T1 image, even though all four images are imported. Also note that the resulting output segmentation needs to be binary.
 
 ## Package your algorithm
 After you prepared your code you can build the container by using the bash command ./build.sh . 
